@@ -1,14 +1,14 @@
 
 
 function HeroSection() {
-  return (
-        <div className="hero-section bg-[#043873] w-full h-[829px] px-[220px] py-[140px] flex gap-1 " >
-            <div className="heading h-[361px] w-[656px]  flex flex-col gap-[60px]">
-                <h1 className="w-full h-[154px] font-bold text-white text-6xl leading-[77.45px]">
+    return (
+        <div className="hero-section wraper bg-[#043873]  py-[140px] flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-1 flex-wraper " >
+            <div className="heading flex-grow lg:w-1/2  flex flex-col gap-[60px]">
+                <h1 className=" font-bold text-white text-6xl leading-[77.45px]">
                     Get More Done with whitepace
                 </h1>
 
-                <p className="w-full h-[60px] font-normal text-lg  text-white leading-[30px]">
+                <p className=" font-normal text-lg  text-white leading-[30px]">
                     Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks
                 </p>
 
@@ -18,12 +18,12 @@ function HeroSection() {
 
             </div>
 
-            <div className="image-container  h-[549px] w-[824px] bg-[#C4DEFD]">
+            <div className="image-container lg:w-1/2 flex-grow w-full h-[549px] bg-[#C4DEFD]">
 
             </div>
-      
-    </div>
-  )
+
+        </div>
+    )
 }
 
 export default HeroSection

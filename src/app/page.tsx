@@ -9,11 +9,11 @@ import YourWork from "@/components/YourWork";
 
 export default function Home() {
   return (
-    <div className="w-[1920px] ">
+    <div className="bg-[#043873]">
       <Header/>
       <HeroSection/>
       <WorkManagement/>
-      <ExtensionSection/>
+      {/* <ExtensionSection/> */}
       <YourWork/>
       <OurSponsors/>
       <Footer/>

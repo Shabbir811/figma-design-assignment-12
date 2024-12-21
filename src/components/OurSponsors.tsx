@@ -7,13 +7,13 @@ import google from "@/app/assets/Google.png"
 
 function OurSponsors() {
   return (
-    <div className='sponsor w-[1920px] h-[538px] px-[220px] py-[140px] bg-white flex flex-col justify-between'>
-        <h1 className=' w- [1482px] h-[87px]  font-bold text-7xl leading-[87.14px]  text-[#212529] text-center '>
+    <div className='sponsor   py-[140px] bg-white flex flex-col gap-[100px]'>
+        <h1 className='wraper font-bold text-7xl leading-[87.14px]  text-[#212529] text-center '>
         
             Our sponsors 
         </h1>
 
-        <div className="sponsor-images w-[1482px] h-[71px] flex justify-between ">
+        <div className="sponsor-images wraper flex-grow justify-center items-center sm:flex-row sm:justify-between flex-wrap flex-col flex gap-[45px] ">
             <Image
                 src={apple}
                 alt="apple"
