@@ -4,7 +4,7 @@ import workTogether from "@/app/assets/Work Together Image.png"
 function WorkManagement() {
   return (
     <div className='work-management py-[140px] flex flex-col gap-[100px] bg-white'>
-        <div className="content wraper flex gap-[60px] flex-wrap flex-col lg:flex-row  justify-center ">
+        <div className="content wraper flex gap-[60px]  flex-col lg:flex-row  justify-center ">
             <div className="heading  lg:w-1/2 flex flex-grow flex-col gap-[60px] ">
                 <h1 className='font-bold text-7xl leading-[87.14px] text-[#212529]'>
                     Project Management
