@@ -1,4 +1,3 @@
-import ExtensionSection from "@/components/ExtensionSection";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
@@ -13,7 +12,6 @@ export default function Home() {
       <Header/>
       <HeroSection/>
       <WorkManagement/>
-      {/* <ExtensionSection/> */}
       <YourWork/>
       <OurSponsors/>
       <Footer/>
